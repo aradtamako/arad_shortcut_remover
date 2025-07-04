@@ -1,3 +1,6 @@
+# arad_shortcut_remover
+- Remove `Arad.lnk` automatically
+
 ### Pre Requirement
 - [arad_plugin_loader](https://github.com/aradtamako/arad_plugin_loader)
 
