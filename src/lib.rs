@@ -29,6 +29,8 @@ extern "system" fn DllMain(hinstDLL: HINSTANCE , reason: u32, _: *mut ()) -> boo
 }
 
 fn on_dll_process_attach() {
+  std::thread::sleep(std::time::Duration::from_secs(1));
+
   if let Some(mut path) = dirs::desktop_dir() {
     path.push("Arad.lnk");
     // println!("{:?}", path.display());
